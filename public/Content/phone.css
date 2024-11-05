@@ -1,0 +1,87 @@
+body {
+    background: rgb(158, 0, 255);
+    background: linear-gradient(90deg, rgba(158, 0, 255, 1) 0%, rgba(239, 25, 212, 1) 54%, rgba(0, 212, 255, 1) 100%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#banner h2 {
+    position: absolute; /* Position absolute to center */
+    top: 50%; /* Move to 50% from the top */
+    left: 50%; /* Move to 50% from the left */
+    transform: translate(-50%, -50%); /* Center the element */
+    margin: 0; /* Remove default margin */
+}
+
+video {
+    width: 100%; /* Make video responsive */
+    max-width: 400px; /* Limit max width */
+    padding: 15px;
+    margin: 15px 0; /* Adjust margin */
+    background-color: black;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px black;
+}
+
+#right-column {
+    text-align: center;
+    position: relative; /* Change to relative for mobile */
+    width: 90%; /* Use percentage for width */
+    margin: 0 auto; /* Center align */
+    height: auto; /* Allow height to adjust */
+    padding: 10px; /* Add padding */
+}
+
+.box {
+    height: 100px; /* Adjust height for mobile */
+    width: 100%; /* Make boxes full width */
+    background-color: tan;
+    margin: 10px 0; /* Adjust margin */
+    opacity: 0.5;
+}
+
+.box:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+footer {
+    background: rgb(158, 0, 255);
+    background: linear-gradient(90deg, rgba(158, 0, 255, 1) 0%, rgba(239, 25, 212, 1) 54%, rgba(0, 212, 255, 1) 100%);
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Padding for top and bottom */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space above the footer */
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    #banner h2 {
+        position: static; /* Reset positioning */
+        margin-top: 10px; /* Margin for spacing */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .topnav a {
+        float: none; /* Stack links vertically */
+        width: 100%; /* Full width */
+        text-align: left; /* Align text to left */
+    }
+
+    #right-column {
+        width: 90%; /* Full width */
+        margin: 0 auto; /* Center column */
+        padding: 10px; /* Add padding */
+    }
+
+    .box {
+        width: 100%; /* Full width for boxes */
+        height: auto; /* Adjust height */
+    }
+}

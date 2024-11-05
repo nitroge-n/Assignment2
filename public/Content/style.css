@@ -1,0 +1,134 @@
+body 
+{
+    background: rgb(158,0,255);
+    background: linear-gradient(90deg, rgba(158,0,255,1) 0%, rgba(239,25,212,1) 54%, rgba(0,212,255,1) 100%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+  h1 {
+    text-align: center;
+}
+
+#banner h2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0; 
+}
+
+video {
+    width: 400px;
+    padding: 15px;
+    margin: 15px;
+    background-color:black;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+}
+#right-column {
+    text-align: center;
+    position:absolute;
+    top:150px;
+    left: 600px;
+    right:600px;
+    bottom: 100px;
+    width: 600px;
+    height: 600px;
+    
+}
+.box {
+    height: 150px;
+    width: 150px;
+    float: right;
+    background-color: tan;
+    margin: 15px;
+    opacity: .5;
+}
+
+.box:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+footer {
+    background: rgb(158,0,255);
+background: linear-gradient(90deg, rgba(158,0,255,1) 0%, rgba(239,25,212,1) 54%, rgba(0,212,255,1) 100%);
+    text-align: center; 
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+    position:absolute;
+    bottom:1px;
+}
+
+img {
+    position:absolute;
+    bottom:15px;
+    left:125px;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+
+}
+
+h4 {
+    font-size:22px;
+    text-align: center;
+    position:absolute;
+    top:110px;
+    left:500px;
+    right:500px;
+    bottom:700px;
+}
+
+.project1
+{
+    position:absolute;
+    left:550px;
+}
+
+.project2
+{
+    position:absolute;
+    left:35px;
+}
+
+.project3
+{
+    position:absolute;
+    left:1050px;
+}
+
+h5 {
+    font-size:14px;
+    text-align: center;
+    position:absolute;
+    top:200px;
+    left:5px;
+    right:1010px;
+    bottom:700px;
+}
+
+h6 {
+    font-size:14px;
+    text-align: center;
+    position:absolute;
+    top:200px;
+    left:500px;
+    right:500px;
+    bottom:700px
+}
+
+b {
+    font-size:14px;
+    text-align: center;
+    position:absolute;
+    top:200px;
+    left:1010px;
+    right:5px;
+    bottom:700px;
+}

@@ -1,0 +1,17 @@
+<% include ./partials/header.ejs %>
+<% include ./partials/main_nav.ejs %> 
+  <% if(title == "Home") { %>
+   <% include ./partials/home.ejs %>
+   <% } else if(title == "About Me") { %>
+    <% include ./partials/About_Me.ejs %>
+   <% } else if(title == "Projects") { %>
+    <% include ./partials/projects.ejs %>
+    <% } else if(title == "Contact Me") { %>
+      <% include ./partials/Contact_Me.ejs %>
+   <% } %>  
+
+
+<% include ./partials/footer.ejs %>
+<% include ./partials/bottom_nav.ejs %>
+
+
